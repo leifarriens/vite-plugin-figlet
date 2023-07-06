@@ -1,0 +1,15 @@
+{
+  "name": "vite-plugin-figlet-example",
+  "version": "0.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^4.4.1",
+    "vite-plugin-figlet": "workspace:*"
+  }
+}

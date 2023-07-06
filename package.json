@@ -26,7 +26,8 @@
   "scripts": {
     "build": "tsup src/index.ts",
     "dev": "pnpm build --watch",
-    "lint": "tsc"
+    "lint": "tsc",
+    "dev:example": "pnpm --filter=vite-plugin-figlet-example dev"
   },
   "dependencies": {
     "figlet": "^1.6.0"
