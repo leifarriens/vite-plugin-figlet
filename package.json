@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-figlet",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Leif Arriens <leif.arriens@gmail.com>",
   "repository": {
@@ -25,6 +25,7 @@
   },
   "scripts": {
     "build": "tsup src/index.ts",
+    "release": "pnpm run build && changeset publish",
     "dev": "pnpm build --watch",
     "lint": "tsc",
     "dev:example": "pnpm --filter=vite-plugin-figlet-example dev"
