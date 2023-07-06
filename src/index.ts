@@ -5,6 +5,9 @@ export default function (txt: string, figletOptions?: Options): PluginOption {
   return {
     name: 'vite-plugin-figlet',
     apply: 'serve',
+    config: () => ({
+      clearScreen: false,
+    }),
     configureServer() {
       figlet(txt, figletOptions, (err, data) => {
         if (err) return;
