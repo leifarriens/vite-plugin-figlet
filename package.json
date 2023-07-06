@@ -2,7 +2,7 @@
   "name": "vite-plugin-figlet",
   "version": "0.0.1",
   "license": "MIT",
-  "author": "Leif Arriens <leif.arriens@gmail.com>",
+  "author": "Leif Arriens",
   "repository": {
     "type": "git",
     "url": "https://github.com/leifarriens/vite-plugin-figlet"
@@ -28,7 +28,7 @@
     "release": "pnpm run build && changeset publish",
     "dev": "pnpm build --watch",
     "lint": "tsc",
-    "dev:example": "pnpm --filter=vite-plugin-figlet-example dev"
+    "dev:example": "pnpm --filter=*example dev"
   },
   "dependencies": {
     "figlet": "^1.6.0"
