@@ -1,6 +1,7 @@
 {
   "name": "vite-plugin-figlet",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.6.0",
   "license": "MIT",
   "author": "Leif Arriens",
   "repository": {
@@ -29,6 +30,10 @@
     "dev": "pnpm build --watch",
     "lint": "tsc",
     "dev:example": "pnpm --filter=*example dev"
+  },
+  "peerDependencies": {
+    "vite": "^3.0.0 || ^4.0.0",
+    "figlet": "^1.0.0"
   },
   "dependencies": {
     "figlet": "^1.6.0"
