@@ -33,7 +33,8 @@
   },
   "peerDependencies": {
     "vite": "^3.0.0 || ^4.0.0",
-    "figlet": "^1.0.0"
+    "figlet": "^1.0.0",
+    "@types/figlet": "^1.0.0"
   },
   "dependencies": {
     "figlet": "^1.6.0"
