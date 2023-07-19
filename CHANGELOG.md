@@ -1,5 +1,11 @@
 # vite-plugin-figlet
 
+## 1.0.2
+
+### Patch Changes
+
+- e42d150: fix figlet options type
+
 ## 1.0.1
 
 ### Patch Changes
