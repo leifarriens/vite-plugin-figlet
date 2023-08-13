@@ -6,6 +6,10 @@ A Vite plugin that allows you to display FIGfont-style text during the startup o
 
 ## Usage
 
+```sh
+npm i -D vite-plugin-figlet
+```
+
 With default config
 
 ```ts
