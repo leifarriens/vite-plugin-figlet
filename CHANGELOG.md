@@ -1,5 +1,11 @@
 # vite-plugin-figlet
 
+## 1.1.0
+
+### Minor Changes
+
+- 6d8b780: allow multiple string to be passed
+
 ## 1.0.2
 
 ### Patch Changes
