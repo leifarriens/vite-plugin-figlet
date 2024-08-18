@@ -2,7 +2,7 @@
 
 A Vite plugin that allows you to display FIGfont-style text during the startup of your [vite](https://github.com/vitejs/vite) development server.
 
-<img src="docs/screen.jpg" alt="screenshot" width="480"/>
+<img src="docs/screen.png" alt="screenshot" width="480"/>
 
 ## Usage
 
@@ -37,4 +37,4 @@ See all [configurable options](https://github.com/DefinitelyTyped/DefinitelyType
 
 ## License
 
-[MIT](./LICENSE) License &copy; 2023 [Leif Arriens](https://github.com/leifarriens)
+[MIT](./LICENSE) License &copy; 2024 [Leif Arriens](https://github.com/leifarriens)
