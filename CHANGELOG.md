@@ -1,5 +1,11 @@
 # vite-plugin-figlet
 
+## 1.2.0
+
+### Minor Changes
+
+- 3f6861e: add support for vite v5
+
 ## 1.1.0
 
 ### Minor Changes
