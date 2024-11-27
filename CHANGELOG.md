@@ -1,5 +1,11 @@
 # vite-plugin-figlet
 
+## 1.3.0
+
+### Minor Changes
+
+- 1666e12: upgrade to vite v6
+
 ## 1.2.0
 
 ### Minor Changes
